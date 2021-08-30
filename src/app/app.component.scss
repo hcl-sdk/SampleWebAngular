@@ -1,0 +1,11 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+
+// Customize SDK styles here
+// @see https://docs.healthcarelocator.com/index.htm#t=QStartGuide%2FCustomize_the_prebuilt_screens_of_the_SDKs.htm
+hcl-sdk {
+  --hcl-color-primary: #001f3f;
+  --hcl-color-secondary: #39cccc;
+}
