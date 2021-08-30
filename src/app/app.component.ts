@@ -18,7 +18,6 @@ export class AppComponent implements OnInit {
     this.config = {
       apiKey: 'INSERT_YOUR_API_KEY_HERE',
       showSuggestModification: true,
-      enableMedicalTerm: true,
     };
   }
 }
