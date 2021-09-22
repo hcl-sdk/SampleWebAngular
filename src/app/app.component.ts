@@ -16,8 +16,9 @@ export class AppComponent implements OnInit {
     // Set SDK configuration here
     // @see https://docs.healthcarelocator.com/index.htm#t=QStartGuide%2FCustomize_the_prebuilt_screens_of_the_SDKs.htm
     this.config = {
-      apiKey: 'INSERT_YOUR_API_KEY_HERE',
+      apiKey: 'YOUR_API_KEY',
       showSuggestModification: true,
+      // stylesheet: '/assets/custom-styles.css',
     };
   }
 }
